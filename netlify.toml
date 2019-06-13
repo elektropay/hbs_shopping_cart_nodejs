@@ -1,0 +1,6 @@
+[build]
+  command = "ng build"
+  publish = "dist/hbs_shopping_cart_nodejs"
+
+[context.production]
+  command = "ng build --prod"
